@@ -1,0 +1,25 @@
+body{
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom_3d_box {
+    transform: perspective(200em) rotateX(5deg);
+    box-shadow:
+      rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+      rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: 
+      rgb(213, 220, 226)
+      rgb(213, 220, 226)
+      rgb(184, 194, 204);
+}
+
+.custom_3d_modal {
+  border-radius: 10px;
+  border: 3px solid #e6e6e6;
+  box-shadow: 0 35px 20px -10px rgba(0, 0, 0, 0.2);
+  transition: 0.4s ease-in-out transform;
+}
